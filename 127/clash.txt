@@ -16,7 +16,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇺🇸 US-ERA, server: mc.eraserver.top, port: 33831, client-fingerprint: chrome, type: trojan, password: Cyuanlife325,alterId: 1, cipher: aes-256-gcm, tls: true, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
-  - {name: HKS-ERA, server: work.eraserver.top, port: 16301, client-fingerprint: chrome, type: hysteria2, password: Cyuanlife325, auth: Cyuanlife325, sni: www.eraserver.top, up:300,down:600,skip-cert-verify: false, alpn: [h3]}
+  - {name: HKL-ERA, server: work.eraserver.top, port: 33831, client-fingerprint: chrome, type: trojan, password: Cyuanlife325,alterId: 1, cipher: aes-256-gcm, tls: true, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
   - {name: 🇭🇰 HK-ERA, server: 38.6.167.6, port: 31831, client-fingerprint: chrome, type: vmess, uuid: 2a1ff376-b991-43f5-e1fc-b0acd0605838, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
 proxy-groups:
   - name: 🚀 节点选择
