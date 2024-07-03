@@ -16,7 +16,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: SG-ERA, server: work.eraserver.top, port: 31831, client-fingerprint: chrome, type: trojan, password: Cyuanlife325,alterId: 1, cipher: aes-256-gcm, tls: true, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
-  - {name: 🇭🇰 HK-ERA, server: 38.6.167.6, port: 31831, client-fingerprint: chrome, type: vmess, uuid: 2a1ff376-b991-43f5-e1fc-b0acd0605838, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
+  - {name: HK-ERA, server: 38.6.167.6, port: 31831, client-fingerprint: chrome, type: vmess, uuid: 2a1ff376-b991-43f5-e1fc-b0acd0605838, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -33,7 +33,7 @@ proxy-groups:
     type: select
     proxies:
       - SG-ERA
-      - HKS-ERA
+      - HK-ERA
   - name: 📲 电报消息
     type: select
     proxies:
@@ -225,7 +225,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 HK-ERA
-      - HKS-ERA
+      - HK-ERA
   - name: 🇯🇵 日本节点
     type: select
     proxies:
