@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: SG-ERA, server: 2a0e:97c0:7d4:8ec9:b605:acd3:3c70:4a44, port: 33831, client-fingerprint: chrome, type: vmess, uuid: 3f132001-ec4c-4840-b3e7-8f621a3fca6e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
+  - {name: SG-ERA, server: work.eraserver.top, port: 33831, client-fingerprint: chrome, type: vmess, uuid: 47d58bf7-65dd-4c6b-a81e-e613432949c3, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
   - {name: SG-ERA1, server: work.eraserver.top, port: 33831, client-fingerprint: chrome, type: vmess, uuid: 3f132001-ec4c-4840-b3e7-8f621a3fca6e, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
   - {name: HK-ERA, server: 38.6.167.6, port: 31831, client-fingerprint: chrome, type: vmess, uuid: 2a1ff376-b991-43f5-e1fc-b0acd0605838, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
 proxy-groups:
