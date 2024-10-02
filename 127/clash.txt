@@ -16,8 +16,8 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: SG-ERA, server: 2407:cdc0:d008::1000:1db, port: 16301, type: hysteria2, password: Cyuanlife325, sni: www.eraserver.top,udp: true,up: 300, down: 500}
-  - {name: SG-ERA1, server: 141.11.78.163, port: 31830, client-fingerprint: chrome, tls: true, tfo: false, skip-cert-verify: false, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /github.com/Alvin9999, headers: {Host: ip2.1457230.xyzp}}}
-  - {name: HK-ERA, server: 141.11.78.163, port: 33831, client-fingerprint: chrome, type: vmess, uuid: 47d58bf7-65dd-4c6b-a81e-e613432949c3, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
+  - {name: SG-ERA1, server: work.eraserver.top, port: 16301, type: hysteria2, password: Cyuanlife325, sni: www.eraserver.top,udp: true,up: 300, down: 500}
+  - {name: HK-ERA, server: game.eraserver.top, port: 31830, client-fingerprint: chrome, type: vmess, uuid: a6fef19a-6c88-4444-ba70-526d42df11c7, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /abc, headers: {Host: www.eraserver.top}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
